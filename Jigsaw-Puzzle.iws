@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3341fc40-20f6-4600-a6d1-dc40cf435d42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/com/mygame/screens/LevelScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jigsaw-Puzzle.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Jigsaw-Puzzle.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygame/JigsawPuzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygame/JigsawPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/framework/draganddrop/DragAndDropActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/framework/draganddrop/DropTargetActor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -92,11 +91,37 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/core/src/com/mygame/screens/LevelScreen.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+                <state relative-caret-position="506">
+                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/core/src/com/framework/draganddrop/DragAndDropActor.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2156">
+                  <caret line="98" selection-start-line="98" selection-end-line="98" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#4019#4020#0" expanded="true" />
+                    <element signature="e#4048#4049#0" expanded="true" />
+                    <element signature="e#4143#4144#0" expanded="true" />
+                    <element signature="e#4175#4176#0" expanded="true" />
+                    <element signature="e#4277#4278#0" expanded="true" />
+                    <element signature="e#4320#4321#0" expanded="true" />
+                    <element signature="e#4448#4449#0" expanded="true" />
+                    <element signature="e#4478#4479#0" expanded="true" />
+                    <element signature="e#4642#4643#0" expanded="true" />
+                    <element signature="e#4675#4676#0" expanded="true" />
+                    <element signature="e#5404#5405#0" expanded="true" />
+                    <element signature="e#5504#5505#0" expanded="true" />
+                    <element signature="e#5500#5501#0" expanded="true" />
+                    <element signature="e#5529#5530#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -104,32 +129,56 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/core/src/com/mygame/JigsawPuzzle.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/desktop/src/com/framework/desktop/DesktopLauncher.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="13" selection-start-line="13" selection-end-line="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="vertical" split-proportion="0.8165746">
+          <split-first>
+            <leaf>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/core/src/com/framework/draganddrop/DropTargetActor.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="1056">
+                      <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+                      <folding>
+                        <element signature="imports" expanded="true" />
+                        <element signature="e#670#671#0" expanded="true" />
+                        <element signature="e#701#702#0" expanded="true" />
+                        <element signature="e#1262#1263#0" expanded="true" />
+                        <element signature="e#1297#1298#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/core/src/com/mygame/JigsawPuzzle.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="242">
+                      <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+                      <folding>
+                        <element signature="imports" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/desktop/src/com/framework/desktop/DesktopLauncher.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="286">
+                      <caret line="13" selection-start-line="13" selection-end-line="13" />
+                      <folding>
+                        <element signature="imports" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-second>
     </splitter>
   </component>
@@ -163,6 +212,10 @@
         <option value="$PROJECT_DIR$/desktop/src/com/framework/desktop/DesktopLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygame/screens/levelScreen.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygame/JigsawPuzzle.java" />
+        <option value="$PROJECT_DIR$/core/src/com/framework/DragAndDropActor.java" />
+        <option value="$PROJECT_DIR$/core/src/com/framework/DropTargetActor.java" />
+        <option value="$PROJECT_DIR$/core/src/com/framework/draganddrop/DropTargetActor.java" />
+        <option value="$PROJECT_DIR$/core/src/com/framework/draganddrop/DragAndDropActor.java" />
       </list>
     </option>
   </component>
@@ -178,9 +231,9 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="880" />
+    <option name="x" value="1500" />
     <option name="y" value="-24" />
-    <option name="width" value="1680" />
+    <option name="width" value="2340" />
     <option name="height" value="2154" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -228,7 +281,7 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mygame" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jigsaw-Puzzle" type="b2602c69:ProjectViewProjectNode" />
@@ -237,7 +290,6 @@
               <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mygame" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jigsaw-Puzzle" type="b2602c69:ProjectViewProjectNode" />
@@ -276,7 +328,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Java_libGDX_boilerplate/Java_libGDX_boilerplate.ipr" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -284,6 +336,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.framework" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -408,15 +465,15 @@
       <workItem from="1555187357838" duration="1373000" />
       <workItem from="1555188745971" duration="5192000" />
       <workItem from="1555254955175" duration="114000" />
-      <workItem from="1555255143635" duration="633000" />
+      <workItem from="1555255143635" duration="1958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7384000" />
+    <option name="totallyTimeSpent" value="8709000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="880" y="-24" width="1680" height="2154" extended-state="0" />
+    <frame x="1500" y="-24" width="2340" height="2154" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -435,7 +492,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.11534702" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.11534702" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="12" weight="0.32991204" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32942328" />
@@ -449,7 +506,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Database" order="9" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="10" sideWeight="0.49964514" visible="true" weight="0.1718377" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="10" sideWeight="0.49964514" visible="true" weight="0.13313356" />
       <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5003549" side_tool="true" weight="0.25" />
     </layout>
   </component>
@@ -480,16 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1298">
           <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/com/framework/desktop/DesktopLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -536,17 +583,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygame/screens/LevelScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="506">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygame/JigsawPuzzle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/framework/desktop/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/framework/draganddrop/DropTargetActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/framework/draganddrop/DragAndDropActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2156">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4019#4020#0" expanded="true" />
+            <element signature="e#4048#4049#0" expanded="true" />
+            <element signature="e#4143#4144#0" expanded="true" />
+            <element signature="e#4175#4176#0" expanded="true" />
+            <element signature="e#4277#4278#0" expanded="true" />
+            <element signature="e#4320#4321#0" expanded="true" />
+            <element signature="e#4448#4449#0" expanded="true" />
+            <element signature="e#4478#4479#0" expanded="true" />
+            <element signature="e#4642#4643#0" expanded="true" />
+            <element signature="e#4675#4676#0" expanded="true" />
+            <element signature="e#5404#5405#0" expanded="true" />
+            <element signature="e#5504#5505#0" expanded="true" />
+            <element signature="e#5500#5501#0" expanded="true" />
+            <element signature="e#5529#5530#0" expanded="true" />
           </folding>
         </state>
       </provider>
